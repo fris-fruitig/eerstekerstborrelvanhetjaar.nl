@@ -399,16 +399,3 @@ form textarea:-ms-input-placeholder {
 	padding-top:100px;
 }
 /* END E-MAIL FORM */
-
-/* 11. SOCIAL ICONS */
-.icons-container{
-	width:260px;
-	position: absolute;
-	z-index: 10;
-	right:100px;
-	bottom:15px;
-}
-.icons-container img{ 
-	width:36px;
-}
-/* END SOCIAL ICONS */

@@ -91,9 +91,6 @@ MEDIA QUERIES
 		height:392px;
 		font-size:20px;
 	}
-	#container .icons-container{
-		bottom:5px;
-	}
 }
 @media (max-width:565px) and (orientation: portrait){
 	#container #countdown_container{
@@ -127,10 +124,6 @@ MEDIA QUERIES
 	}
 	#container #christmas_tree{
 		bottom:55px;
-	}
-	#container .icons-container {
-		right:50%;
-		margin-right:-130px;
 	}
 	form textarea{
 		min-width: unset;
@@ -224,13 +217,6 @@ MEDIA QUERIES
 	}
 	#container #mail_pole{
 		bottom:10px;
-	}
-	#container .icons-container{
-		width: 220px;
-		right:10px;
-	}
-	#container .icons-container img {
-		width: 30px;
 	}
 	#container .merry-christmas-text{
 		font-size: 35px;
