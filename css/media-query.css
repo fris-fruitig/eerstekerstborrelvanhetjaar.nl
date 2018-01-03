@@ -76,7 +76,7 @@ MEDIA QUERIES
 	}
 	#container .merry-christmas-text{
 		top: 180px;
-		font-size: 40px;
+		font-size: 30px;
 	}
 	#logos {
 		width: 200px;
@@ -101,7 +101,7 @@ MEDIA QUERIES
 		padding-top:30px;
 	}
 	#container .merry-christmas-text{
-		font-size:40px;
+		font-size:30px;
 	}
 	#container #mail_pole {
 		margin-left: -160px;
@@ -120,7 +120,7 @@ MEDIA QUERIES
 	}
 	#container .merry-christmas-text{
 		top: 225px;
-		font-size:40px;
+		font-size:30px;
 	}
 	#logos {
 		width: 200px;
@@ -146,7 +146,7 @@ MEDIA QUERIES
 	}
 	#container .merry-christmas-text{
 		top: 195px;
-		font-size: 40px;
+		font-size: 30px;
 	}
 	#logos {
 		width: 200px;
@@ -182,7 +182,7 @@ MEDIA QUERIES
 		bottom:10px;
 	}
 	#container .merry-christmas-text{
-		font-size: 35px;
+		font-size: 30px;
 		padding-right: 10px;
 		text-align: right;
 		top: 25px;
