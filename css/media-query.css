@@ -54,9 +54,6 @@ MEDIA QUERIES
 }
 
 @media (max-width: 1024px) and (orientation:portrait){
-	#container .happy-new-year{
-		display: none;
-	}
 	#container #mail_pole{
 		margin-left:-190px;
 	}
@@ -118,10 +115,15 @@ MEDIA QUERIES
 		top:100px;
 		font-size:55px;
 	}
-	#container .happy-new-year{
-		top:180px;
-		width: 300px;
-		margin-left:-150px;
+	#logos {
+		width: 200px;
+		height: 47px;
+		top: 180px;
+		margin-left: -100px;
+	}
+	#logos img {
+		width: 200px;
+		height: 47px;
 	}
 	#container #christmas_tree{
 		bottom:55px;
@@ -148,9 +150,6 @@ MEDIA QUERIES
 	#container #mail_pole {
 		margin-left: -160px;
 	}
-	#container .happy-new-year{
-		display: none;
-	}
 }
 @media (max-height:768px) and (orientation:landscape){
 	#container #countdown_container{
@@ -167,10 +166,15 @@ MEDIA QUERIES
 		top:130px;
 		font-size:65px;
 	}
-	#container .happy-new-year{
-		width: 300px;
-		top:225px;
-		margin-left:-150px;
+	#logos {
+		width: 200px;
+		height: 47px;
+		top: 225px;
+		margin-left: -100px;
+	}
+	#logos img {
+		width: 200px;
+		height: 47px;
 	}
 }
 @media(max-height: 600px) and (orientation:landscape){
@@ -188,10 +192,15 @@ MEDIA QUERIES
 		top:115px;
 		font-size:55px;
 	}
-	#container .happy-new-year{
+	#logos {
 		width: 200px;
+		height: 47px;
 		top: 195px;
 		margin-left: -100px;
+	}
+	#logos img {
+		width: 200px;
+		height: 47px;
 	}
 }
 @media (max-height:400px) and (orientation:landscape){
@@ -229,11 +238,15 @@ MEDIA QUERIES
 		text-align: right;
 		top: 25px;
 	}
-	#container .happy-new-year{
-		display: none;
+	#logos {
 		top:25%;
-		width: 300px;
-		margin-left:-150px;
+		width: 200px;
+		height: 47px;
+		margin-left:-100px;
+	}
+	#logos img {
+		width: 200px;
+		height: 47px;
 	}
 }
 /* END MEDIA QUERIES */

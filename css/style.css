@@ -288,6 +288,20 @@ form textarea:-ms-input-placeholder {
 }
 /* END COUNTDOWN CONTAINER */
 
+#logos {
+	width: 400px;
+	height: 95px;
+	position: absolute;
+	margin-left:-200px;
+	top: 275px;
+	left: 50%;
+	z-index: 99;
+}
+#logos img {
+	width: 400px;
+	height: 95px;
+}
+
 /* 8. MERRY CHRISTMAS TEXT */
 #container .merry-christmas-text{
 	font-family: 'Parisienne', cursive;
