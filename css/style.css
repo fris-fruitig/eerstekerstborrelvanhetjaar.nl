@@ -313,3 +313,10 @@ form textarea:-ms-input-placeholder {
 	color:#fff;
 }
 /* END MERRY CHRISTMAS TEXT */
+
+#facebook-link {
+	position: absolute;
+	z-index: 10;
+	right: 10px;
+	bottom: 10px;
+}
