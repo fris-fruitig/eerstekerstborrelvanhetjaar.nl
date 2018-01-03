@@ -300,20 +300,6 @@ form textarea:-ms-input-placeholder {
 }
 /* END MERRY CHRISTMAS TEXT */
 
-/* 9. HAPPY NEW YEAR PHOTO */
-#container .happy-new-year{
-	background:url('../images/happy-new-year.png');
-	background-repeat: no-repeat;
-	background-size:contain;
-	width: 400px;
-	height: 112px;
-	position: absolute;
-	margin-left:-200px;
-	top: 265px;
-	left: 50%;
-}
-/* END HAPPY NEW YEAR PHOTO */
-
 /* 10. E-MAIL FORM */
 #contact_modal .mail-container{
 	width: 900px;
