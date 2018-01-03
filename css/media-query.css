@@ -58,40 +58,6 @@ MEDIA QUERIES
 		margin-left:-190px;
 	}
 }
-@media (max-width: 995px){
-	#contact_modal .modal-dialog, 
-	#contact_modal .mail-container{
-		width: 100%;
-	}
-	#contact_modal .modal-content{
-		display: block;
-		margin-right:20px;
-		height:422px;
-	}
-	#contact_modal form{
-		width: 420px;
-		margin:0 auto;
-	}
-	#contact_modal .mail-container img{
-		display: none;
-	}
-	#contact_modal .mail-container .form-submit-button{
-		position: relative;
-		right: 50%;
-		width: 100px;
-		margin-right: -50px;
-		margin-top: 15px;
-		bottom:0;
-	}
-	#contact_modal .mail-container::after{
-		top:-15px;
-		height:420px;
-	}
-	#contact_modal .mail-container .bg-color{
-		height:392px;
-		font-size:20px;
-	}
-}
 @media (max-width:565px) and (orientation: portrait){
 	#container #countdown_container{
 		width: 100%;
@@ -131,9 +97,6 @@ MEDIA QUERIES
 }
 
 @media (max-width: 420px) and (orientation:portrait){
-	#contact_modal form{
-		width: 100%;
-	}
 	#container #countdown_container .countdown-globe{
 		padding-top:30px;
 	}
