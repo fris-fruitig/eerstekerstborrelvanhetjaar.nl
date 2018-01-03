@@ -293,7 +293,7 @@ form textarea:-ms-input-placeholder {
 	height: 95px;
 	position: absolute;
 	margin-left:-200px;
-	top: 275px;
+	top: 190px;
 	left: 50%;
 	z-index: 99;
 }
@@ -306,10 +306,10 @@ form textarea:-ms-input-placeholder {
 #container .merry-christmas-text{
 	font-family: 'Parisienne', cursive;
 	position: absolute;
-	top: 150px;
+	top: 300px;
 	width: 100%;
 	text-align: center;
-	font-size:80px;
+	font-size: 50px;
 	color:#fff;
 }
 /* END MERRY CHRISTMAS TEXT */
