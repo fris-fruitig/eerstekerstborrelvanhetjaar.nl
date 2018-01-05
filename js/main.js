@@ -91,7 +91,7 @@ var Main = (function($){
 			$('#mail_pole img').css('width', width/3);
 		},
 		countdownInit: function(){
-			$('#countdown_container').countdown('2018/01/12', function(event) {
+			$('#countdown_container').countdown('2018/01/12 15:00:00 ', function(event) {
 				$(this).html(event.strftime('<div class="col-md-3 col-xs-3 countdown-globe">%D<div class="col-md-12 padding-none">Days</div></div>\
 					<div class="col-md-3 col-xs-3 countdown-globe">%H<div class="col-md-12 padding-none">Hours</div></div>\
 					<div class="col-md-3 col-xs-3 countdown-globe">%M<div class="col-md-12 padding-none">Minutes</div></div>\
