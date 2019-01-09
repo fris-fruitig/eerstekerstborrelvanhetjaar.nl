@@ -1,77 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Eerste kerstborrel van het jaar | Fris & Fruitg + the cee spot</title>
+  <head>
+    <meta charset="utf-8" />
+    <title>Eerste kerstborrel van het jaar | Fris & Fruitig + the cee spot</title>
 
-	<!-- Behavioral Meta Data -->
-	<link rel="icon" href="favicon.ico" type="image/ico" sizes="32x32">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta name="description" content="De eerste kerstborrel van het jaar">
-	<meta name="keywords" content="Christmas, Countdown, Tree, Snow">
-	<meta name="author" content="AwesomeC">
+    <!-- Behavioral Meta Data -->
+    <link rel="icon" href="favicon.ico" type="image/ico" sizes="32x32" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="description" content="De eerste kerstborrel van het jaar" />
+    <meta name="keywords" content="Christmas, Countdown, Tree, Snow" />
+    <meta name="author" content="AwesomeC" />
 
-	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<link rel="stylesheet" type="text/css" href="css/media-query.css"/>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media-query.css" />
 
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Lobster%7CParisienne%7CRaleway:200,300" rel="stylesheet">
-</head>
-<body>
-	<div id="loader"></div>
-	<!-- Parallax Container -->
-	<div id="container" class="parallax-container snow">
-		<ul id="christmas_scene" class="christmas-scene" >
-			<li class="layer" data-depth="0.80"><div class="layer-5 layer-photo photo-zoom"></div></li>
-			<li class="layer" data-depth="0.60"><div class="layer-4 layer-photo photo-zoom"></div></li>
-			<li class="layer" data-depth="0.40"><div class="layer-3 layer-photo photo-zoom"></div></li>
-			<li class="layer" data-depth="0.20"><div class="layer-2 layer-photo photo-zoom"></div></li>
-			<li class="layer" data-depth="0.00"><div class="layer-1 layer-photo"></div></li>
-		</ul>
-		<!-- Countdown Container -->
-		<div id="countdown_container"></div>
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster%7CParisienne%7CRaleway:200,300"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="loader"></div>
+    <!-- Parallax Container -->
+    <div id="container" class="parallax-container snow">
+      <ul id="christmas_scene" class="christmas-scene">
+        <li class="layer" data-depth="0.80"><div class="layer-5 layer-photo photo-zoom"></div></li>
+        <li class="layer" data-depth="0.60"><div class="layer-4 layer-photo photo-zoom"></div></li>
+        <li class="layer" data-depth="0.40"><div class="layer-3 layer-photo photo-zoom"></div></li>
+        <li class="layer" data-depth="0.20"><div class="layer-2 layer-photo photo-zoom"></div></li>
+        <li class="layer" data-depth="0.00"><div class="layer-1 layer-photo"></div></li>
+      </ul>
+      <!-- Countdown Container -->
+      <div id="countdown_container"></div>
 
-		<!-- Fris & Fruitig logo -->
-		<a href="https://www.frisenfruitig.nl" id="logos">
-			<img src="images/logos.png" />
-		</a>
+      <!-- Fris & Fruitig logo -->
+      <div id="logos">
+        <a href="https://www.frisenfruitig.nl"> <img src="images/frisenfruitig.png" /> </a>
+        <a href="https://www.hihiguide.com"> <img src="images/hihiguide.png" /> </a>
+        <a href="https://www.theceespot.nl"> <img src="images/theceespot.png" /> </a>
+      </div>
 
-		<!-- Merry Christmas Text -> You can replace with anything you like! -->
-		<div class="merry-christmas-text">
-			Eerste kerstborrel van het jaar! <br />
-			12 januari 2018 - 16:00 - The cee spot
-		</div>
+      <!-- Merry Christmas Text -> You can replace with anything you like! -->
+      <div class="merry-christmas-text">
+        Eerste kerstborrel van het jaar! <br />
+        11 januari 2019 - 16:00 - the cee spot
+      </div>
 
-		<!-- Contact Pole Image -> From here the E-mail modal is triggered -->
-		<a id="mail_pole" href="https://frisenfruitig.nl/contact">
-			<img src="images/pole.png" class="img-responsive" alt="mail-pole">
-		</a>
-		<!-- Christmas Tree -->
-		<img src="images/christmas-tree.png" alt="christmas-tree" id="christmas_tree"/>
+      <!-- Contact Pole Image -> From here the E-mail modal is triggered -->
+      <a id="mail_pole" href="https://frisenfruitig.nl/contact">
+        <img src="images/pole.png" class="img-responsive" alt="mail-pole" />
+      </a>
+      <!-- Christmas Tree -->
+      <img src="images/christmas-tree.png" alt="christmas-tree" id="christmas_tree" />
+    </div>
 
-		<a href="https://www.facebook.com/events/1535404876554328" id="facebook-link">
-			Meld je aan op Facebook
-		</a>
-	</div>
-
-	<!-- Scripts -->
-	<script src="js/jquery-3.1.1.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/jquery.countdown.js"></script>
-	<script src="js/jquery.parallax.js"></script>
-	<script src="js/moment.min.js"></script>
-	<script src="js/moment-timezone-with-data.min.js"></script>
-	<script src="js/snow.js"></script>
-	<script src="js/main.js"></script>
-	<script>
-		// Parallax Init
-		$('#christmas_scene').parallax({
-			scalarX: 5,
-			scalarY: 15,
-			invertY: false
-		});
-	</script>
-</body>
+    <!-- Scripts -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/moment-timezone-with-data.min.js"></script>
+    <script src="js/snow.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // Parallax Init
+      $("#christmas_scene").parallax({
+        scalarX: 5,
+        scalarY: 15,
+        invertY: false
+      });
+    </script>
+  </body>
 </html>
